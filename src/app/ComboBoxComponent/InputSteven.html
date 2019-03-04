@@ -1,0 +1,9 @@
+<label>{{nombre}}</label>
+<input type="text" class="MiInput" value="{{nombre}}">
+
+<ul>
+    <li *ngFor="let MiVariable of cuaderno" [class.Miclase]="MiVariable.marca=='Norma'">
+        {{MiVariable.marca}}
+        <span *ngIf="MiVariable.marca=='Norma'">:v hey hey</span>
+    </li>
+</ul>
