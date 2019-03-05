@@ -3,9 +3,10 @@ import { NgModule, Input } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ComponentBox } from './ComboBoxComponent/ComboBox.component';
-import { InputSteven } from './ComboBoxComponent/ComboBox.component';
-import { NuevoComponent } from './NuevoComponente/NuevoComponente.component';
+import { ComponentBox } from '../app/ModeloDeComponentes/ComboBox.component';
+import { InputSteven } from '../app/ModeloDeComponentes/ComboBox.component';
+import { NuevoComponent } from '../app//ModeloDeComponentes/NuevoComponente.component';
+
 
 @NgModule({
   declarations: [

@@ -1,7 +1,7 @@
 import {Component, OnInit, DoCheck, OnDestroy} from '@angular/core';
 @Component({
 selector: 'NewComponent',
-templateUrl: './NuevoComponente.html'
+templateUrl: '../TemplateComponents/NuevoComponente.html'
 })
 export class NuevoComponent implements OnInit,DoCheck, OnDestroy{
     public Nombre: string;
